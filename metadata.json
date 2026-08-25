@@ -1,0 +1,6 @@
+{
+  "name": "Namo Buddha Medical Hall",
+  "description": "Your Trusted Medical Store in Bodhgaya for Genuine Medicines, Healthcare Products, Surgical Supplies & WhatsApp Delivery.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

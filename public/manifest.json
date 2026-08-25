@@ -1,0 +1,54 @@
+{
+  "name": "Namo Buddha Medical Hall - Bodhgaya",
+  "short_name": "Namo Buddha Med",
+  "description": "Your Trusted Medical Store for Genuine Medicines & Healthcare Needs in Bodhgaya, Bihar",
+  "start_url": "/",
+  "id": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F8FAFC",
+  "theme_color": "#0A8F6A",
+  "lang": "en-IN",
+  "dir": "ltr",
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "categories": ["medical", "health", "shopping"],
+  "shortcuts": [
+    {
+      "name": "Check Medicine Stock",
+      "short_name": "Stock Checker",
+      "url": "/services#stock-checker",
+      "description": "Instantly verify medicine availability"
+    },
+    {
+      "name": "Order on WhatsApp",
+      "short_name": "Order",
+      "url": "/contact",
+      "description": "Send prescription & medicines to WhatsApp"
+    }
+  ]
+}

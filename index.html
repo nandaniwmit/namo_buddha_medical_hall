@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+    
+    <!-- Primary SEO Meta Tags -->
+    <title>Namo Buddha Medical Hall | Trusted Pharmacy in Bodhgaya, Gaya, Bihar</title>
+    <meta name="title" content="Namo Buddha Medical Hall | Trusted Pharmacy in Bodhgaya, Gaya, Bihar" />
+    <meta name="description" content="Namo Buddha Medical Hall is your trusted medical store in Bodhgaya, near Bus Stand, Super Market. Providing genuine medicines, surgical supplies, OTC, healthcare devices, and instant WhatsApp medicine ordering." />
+    <meta name="keywords" content="Namo Buddha Medical Hall, Pharmacy Bodhgaya, Medical Store Bodhgaya, Chemist near Bodhgaya Bus Stand, Genuine Medicines Gaya Bihar, WhatsApp Medicine Order Bodhgaya, Surgical Supplies Bodhgaya, Pharmacy near Mahabodhi Temple" />
+    <meta name="author" content="Namo Buddha Medical Hall" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://namobuddhamedical.com/" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://namobuddhamedical.com/" />
+    <meta property="og:title" content="Namo Buddha Medical Hall - Genuine Medicines & Healthcare in Bodhgaya" />
+    <meta property="og:description" content="Trusted medical store in Bodhgaya near Bus Stand. Genuine allopathic, ayurvedic, surgical supplies & quick WhatsApp delivery." />
+    <meta property="og:image" content="/icons/icon.svg" />
+    <meta property="og:locale" content="en_IN" />
+    <meta property="og:site_name" content="Namo Buddha Medical Hall" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://namobuddhamedical.com/" />
+    <meta property="twitter:title" content="Namo Buddha Medical Hall - Bodhgaya Pharmacy" />
+    <meta property="twitter:description" content="Your trusted medical store in Bodhgaya. Check live medicine stock and order on WhatsApp directly." />
+    <meta property="twitter:image" content="/icons/icon.svg" />
+
+    <!-- PWA / Mobile Capable -->
+    <meta name="theme-color" content="#0A8F6A" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Namo Buddha Med" />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="icon" type="image/svg+xml" href="/icons/icon.svg" />
+    <link rel="apple-touch-icon" href="/icons/icon.svg" />
+
+    <!-- Google Fonts for Modern Healthcare Aesthetic -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+    <!-- Anti-Flicker Theme Detection -->
+    <script>
+      (function() {
+        try {
+          const theme = localStorage.getItem('nb_theme') || 
+            (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+          if (theme === 'dark') {
+            document.documentElement.classList.add('dark');
+          } else {
+            document.documentElement.classList.remove('dark');
+          }
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body class="bg-slate-50 text-slate-900 dark:bg-slate-950 dark:text-slate-100 font-sans antialiased selection:bg-emerald-500 selection:text-white min-h-screen flex flex-col">
+    <div id="root" class="flex flex-col min-h-screen"></div>
+    
+    <!-- React Main Application -->
+    <script type="module" src="/src/main.tsx"></script>
+
+    <!-- REQUIRED WMIT ANCHOR SCRIPT — PRESERVE EXACTLY (Step 12) -->
+    <script src="https://crm.webmakerit.com/api/serve_broadcast.php" defer></script>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0A8F6A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0369A1;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#0A8F6A" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- Rounded Background -->
+  <rect width="512" height="512" rx="112" fill="url(#grad1)" />
+  
+  <!-- Inner Subtle Ring -->
+  <circle cx="256" cy="256" r="210" fill="none" stroke="#ffffff" stroke-width="4" stroke-opacity="0.25" stroke-dasharray="12 12" />
+
+  <!-- Pharmacy Medical Cross with Lotus Petal motif for Bodhgaya -->
+  <g filter="url(#shadow)">
+    <!-- Vertical Bar -->
+    <rect x="220" y="120" width="72" height="272" rx="24" fill="#ffffff" />
+    <!-- Horizontal Bar -->
+    <rect x="120" y="220" width="272" height="72" rx="24" fill="#ffffff" />
+  </g>
+
+  <!-- Central Emblem / Heart & Pulse -->
+  <circle cx="256" cy="256" r="44" fill="#0A8F6A" />
+  <path d="M236 256h10l5-12 8 24 7-16 5 8h9" fill="none" stroke="#ffffff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+
+  <!-- Lotus / Bodhi leaf accent in corner -->
+  <path d="M380 132 C380 132, 400 170, 362 170 C362 170, 362 132, 380 132 Z" fill="#FACC15" opacity="0.9" />
+</svg>
